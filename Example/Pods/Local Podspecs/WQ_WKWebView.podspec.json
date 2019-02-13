@@ -1,0 +1,22 @@
+{
+  "name": "WQ_WKWebView",
+  "version": "0.1.0",
+  "summary": "A short description of WQ_WKWebView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuqiongaia@163.com/WQ_WKWebView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuqiongaia@163.com": "jiangwei@lcworld-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/wuqiongaia@163.com/WQ_WKWebView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WQ_WKWebView/Classes/**/*"
+}

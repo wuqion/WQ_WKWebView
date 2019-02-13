@@ -1,0 +1,6 @@
+framework module Pods_WQ_WKWebView_Tests {
+  umbrella header "Pods-WQ_WKWebView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

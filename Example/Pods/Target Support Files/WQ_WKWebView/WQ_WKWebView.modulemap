@@ -1,0 +1,6 @@
+framework module WQ_WKWebView {
+  umbrella header "WQ_WKWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

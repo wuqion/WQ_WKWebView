@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WQ_WKWebView_Example' do
+  pod 'WQ_WKWebView', :path => '../'
+
+  target 'WQ_WKWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
