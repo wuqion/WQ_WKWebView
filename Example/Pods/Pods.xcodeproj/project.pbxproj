@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051FF8F2CFCB1E160AA29BF259BE3D59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4133E0F9E76801F7B6EA6DA61105C87A /* ReplaceMe.m */; };
 		081AA3FB51F17A26DAF891822EEC5308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		0B6134FE5CE0A3300E0197D5B7BD129A /* WQ_WKWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8339A29B39BA4DEDD3F4C3A270F030FC /* WQ_WKWebView-dummy.m */; };
 		118D26A725954202A1B79B8E876CA2D9 /* Pods-WQ_WKWebView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB38AC04B2F8B7ED4E61F5EE48FA404 /* Pods-WQ_WKWebView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA02980D073ED0744B7EDBF83B4B124 /* WQ_WKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E66C24D72505973E5FC74FA778341 /* WQ_WKWebView.m */; };
+		4A515F1F8B1CF2DE92F071320057AAC2 /* WQ_WKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F81F10403CE10E5B32394E12D51C411A /* WQ_WKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85D2134E1DE996C5A432FD34EFE698B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		99E6909B535C01B9DC3BA1FE39257C4B /* WQ_WKWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1E84C9AAF362E4F840E70228A06680 /* WQ_WKWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B57182A5A5887074E75AE68C7BFAC62E /* WQ_WKWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4ACD07A56385159EED544F4839CF8D /* WQ_WKWebView-dummy.m */; };
+		A0BFCC49FE2E2A10502D618EF443AA37 /* WQ_WKWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C54DC74B7739967257EEC448B95BB2 /* WQ_WKWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC2E4F09956004210C5BA9B30EFE5D2E /* Pods-WQ_WKWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7526565D2075B646A6B496FF0D8A9 /* Pods-WQ_WKWebView_Example-dummy.m */; };
 		C3B6344C3D56C5A92DC57DDE9F84057C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		D67897923462BF43F364E063DC8F5CF7 /* Pods-WQ_WKWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A30564088E90D66799157C2CEB2F84 /* Pods-WQ_WKWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,41 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1E84C9AAF362E4F840E70228A06680 /* WQ_WKWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_WKWebView-umbrella.h"; sourceTree = "<group>"; };
 		0DD6B31388645D51DA118A82DCE4C634 /* Pods-WQ_WKWebView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_WKWebView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		11E98EA05D679EA69CF18740A5A4264C /* Pods-WQ_WKWebView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_WKWebView_Tests-resources.sh"; sourceTree = "<group>"; };
+		161AB25241AE75DDA7DE213912CE120B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1E1E66C24D72505973E5FC74FA778341 /* WQ_WKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQ_WKWebView.m; path = WQ_WKWebView/Classes/WQ_WKWebView.m; sourceTree = "<group>"; };
 		21D442DF51991D583FD352B77C664B70 /* Pods_WQ_WKWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_WKWebView_Example.framework; path = "Pods-WQ_WKWebView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4ACD07A56385159EED544F4839CF8D /* WQ_WKWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQ_WKWebView-dummy.m"; sourceTree = "<group>"; };
 		2DBE6CDCE55988446B78336F0F308043 /* Pods-WQ_WKWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_WKWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		30AAE2CC77DCBE19A2796FE0AFBCB1CA /* WQ_WKWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_WKWebView-prefix.pch"; sourceTree = "<group>"; };
 		318EB899D5918E30FE95136A34F7C860 /* WQ_WKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQ_WKWebView.framework; path = WQ_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B5409256DA84F06F7B5F4D4C8DF516 /* Pods-WQ_WKWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_WKWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		401D096ACB9752DD31C5B1885A760A50 /* Pods_WQ_WKWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_WKWebView_Tests.framework; path = "Pods-WQ_WKWebView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4133E0F9E76801F7B6EA6DA61105C87A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WQ_WKWebView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		4531202C6AF775DF87BEDD7E319ED815 /* WQ_WKWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQ_WKWebView.xcconfig; sourceTree = "<group>"; };
 		4B7F78BEFBADDBD606C76F59FAAD8752 /* Pods-WQ_WKWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_WKWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE0E1762A0383C1223008075684C8D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5E4ED399DFB49478DC85294386A11FB2 /* Pods-WQ_WKWebView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQ_WKWebView_Tests.modulemap"; sourceTree = "<group>"; };
 		5E947D9AA40C64ED8E423F1CADA2C76F /* Pods-WQ_WKWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_WKWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66C64E3BBF72A694E7447DC960046F10 /* WQ_WKWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WQ_WKWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BB38AC04B2F8B7ED4E61F5EE48FA404 /* Pods-WQ_WKWebView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQ_WKWebView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6F331317B71E85910DBD12FF46F2DF4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70010BA6C1A1CF4780110B0BDDD19135 /* Pods-WQ_WKWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_WKWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		785CDEF4E2C388BC459731F26E8FA04F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75C54DC74B7739967257EEC448B95BB2 /* WQ_WKWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_WKWebView-umbrella.h"; sourceTree = "<group>"; };
+		8339A29B39BA4DEDD3F4C3A270F030FC /* WQ_WKWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQ_WKWebView-dummy.m"; sourceTree = "<group>"; };
 		8A08B42DE525186A10E2024A40993D26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F8686A8D029A2CF89B073F1C4400E06 /* Pods-WQ_WKWebView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_WKWebView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9717219A94D25231630B5F138CC51BB5 /* Pods-WQ_WKWebView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQ_WKWebView_Tests-dummy.m"; sourceTree = "<group>"; };
+		993B6F396297BF215B976C2424CEAF92 /* WQ_WKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQ_WKWebView.modulemap; sourceTree = "<group>"; };
+		9A7458900E788F88C232C96F43B5792F /* WQ_WKWebView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WQ_WKWebView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA1BE5B438023639F6E0E9C4A9969A8 /* Pods-WQ_WKWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_WKWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A8C6F6DB950B21602AAD8815A7904C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC8C065D36E8987A29D149052F832BF6 /* WQ_WKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQ_WKWebView.modulemap; sourceTree = "<group>"; };
 		B9689D082D18446B93C89EBE0433E7DB /* Pods-WQ_WKWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQ_WKWebView_Example.modulemap"; sourceTree = "<group>"; };
+		C2B9D28850D794603D53AA482F501AAE /* WQ_WKWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQ_WKWebView.xcconfig; sourceTree = "<group>"; };
+		C91DD1536C9FD45361A5CE44DA5AC0F2 /* WQ_WKWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_WKWebView-prefix.pch"; sourceTree = "<group>"; };
 		D5A30564088E90D66799157C2CEB2F84 /* Pods-WQ_WKWebView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQ_WKWebView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6D7526565D2075B646A6B496FF0D8A9 /* Pods-WQ_WKWebView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQ_WKWebView_Example-dummy.m"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9737429902441BA2A69A3E5F3AF7FE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E36608D516187C6830001031A76B6534 /* Pods-WQ_WKWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_WKWebView_Example-resources.sh"; sourceTree = "<group>"; };
 		E6AE20C357972367C46E36212EF99C5A /* Pods-WQ_WKWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_WKWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8505D01AC6A84716ABBDDE83CB427D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8026F184C032508A1BE85B69AE49849 /* Pods-WQ_WKWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_WKWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81F10403CE10E5B32394E12D51C411A /* WQ_WKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQ_WKWebView.h; path = WQ_WKWebView/Classes/WQ_WKWebView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,33 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01FC38E76D3CF83CC4FCB8EF5B45C866 /* Development Pods */ = {
+		3FF14CF8721864892C504E5C9EC9EF0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41ED9615F913154136984EDFD776CA95 /* WQ_WKWebView */,
+				E8505D01AC6A84716ABBDDE83CB427D8 /* Info.plist */,
+				993B6F396297BF215B976C2424CEAF92 /* WQ_WKWebView.modulemap */,
+				C2B9D28850D794603D53AA482F501AAE /* WQ_WKWebView.xcconfig */,
+				8339A29B39BA4DEDD3F4C3A270F030FC /* WQ_WKWebView-dummy.m */,
+				C91DD1536C9FD45361A5CE44DA5AC0F2 /* WQ_WKWebView-prefix.pch */,
+				75C54DC74B7739967257EEC448B95BB2 /* WQ_WKWebView-umbrella.h */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		04EF0F04914139D4412A774DAB9ED83B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				785CDEF4E2C388BC459731F26E8FA04F /* LICENSE */,
-				D9737429902441BA2A69A3E5F3AF7FE6 /* README.md */,
-				66C64E3BBF72A694E7447DC960046F10 /* WQ_WKWebView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		41ED9615F913154136984EDFD776CA95 /* WQ_WKWebView */ = {
-			isa = PBXGroup;
-			children = (
-				4133E0F9E76801F7B6EA6DA61105C87A /* ReplaceMe.m */,
-				04EF0F04914139D4412A774DAB9ED83B /* Pod */,
-				638A81C0DF351BEB4CB56782F3D8176A /* Support Files */,
-			);
-			name = WQ_WKWebView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WQ_WKWebView";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -139,18 +126,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		638A81C0DF351BEB4CB56782F3D8176A /* Support Files */ = {
+		51B4B88EC6A7AE24ABFDD8737ED565DE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A8C6F6DB950B21602AAD8815A7904C4A /* Info.plist */,
-				AC8C065D36E8987A29D149052F832BF6 /* WQ_WKWebView.modulemap */,
-				4531202C6AF775DF87BEDD7E319ED815 /* WQ_WKWebView.xcconfig */,
-				2C4ACD07A56385159EED544F4839CF8D /* WQ_WKWebView-dummy.m */,
-				30AAE2CC77DCBE19A2796FE0AFBCB1CA /* WQ_WKWebView-prefix.pch */,
-				0B1E84C9AAF362E4F840E70228A06680 /* WQ_WKWebView-umbrella.h */,
+				161AB25241AE75DDA7DE213912CE120B /* LICENSE */,
+				5CE0E1762A0383C1223008075684C8D1 /* README.md */,
+				9A7458900E788F88C232C96F43B5792F /* WQ_WKWebView.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WQ_WKWebView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		67CE80268588C2307E02A42D962905FD /* Targets Support Files */ = {
@@ -166,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				01FC38E76D3CF83CC4FCB8EF5B45C866 /* Development Pods */,
+				BE9121E420E3FF87F4311CB960A71DEA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8F4540979C26E15A0D2DCFF4C3FF39A4 /* Products */,
 				67CE80268588C2307E02A42D962905FD /* Targets Support Files */,
@@ -227,6 +210,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE9121E420E3FF87F4311CB960A71DEA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA6BA2DC4D2397C28709CC9B8D4FA87A /* WQ_WKWebView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA6BA2DC4D2397C28709CC9B8D4FA87A /* WQ_WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F81F10403CE10E5B32394E12D51C411A /* WQ_WKWebView.h */,
+				1E1E66C24D72505973E5FC74FA778341 /* WQ_WKWebView.m */,
+				51B4B88EC6A7AE24ABFDD8737ED565DE /* Pod */,
+				3FF14CF8721864892C504E5C9EC9EF0F /* Support Files */,
+			);
+			name = WQ_WKWebView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -238,11 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1604359011A7DFABD3F8F3F26848FE10 /* Headers */ = {
+		BC22A987F471711A899E2D9E38911926 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E6909B535C01B9DC3BA1FE39257C4B /* WQ_WKWebView-umbrella.h in Headers */,
+				A0BFCC49FE2E2A10502D618EF443AA37 /* WQ_WKWebView-umbrella.h in Headers */,
+				4A515F1F8B1CF2DE92F071320057AAC2 /* WQ_WKWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +265,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A991BB9ED34EB0C2F3C2E022CE2B615B /* Build configuration list for PBXNativeTarget "WQ_WKWebView" */;
 			buildPhases = (
-				1604359011A7DFABD3F8F3F26848FE10 /* Headers */,
-				613C2689FB6C8ED35EBD06B5DFAD0326 /* Sources */,
+				BC22A987F471711A899E2D9E38911926 /* Headers */,
+				78639C02452065BAB7B0D179DC5B2ED0 /* Sources */,
 				C0E9569A7D9184118ECA410BDF146BA1 /* Frameworks */,
 				B920F12A17C420162A3A8AFD0D4F0B89 /* Resources */,
 			);
@@ -374,20 +378,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		613C2689FB6C8ED35EBD06B5DFAD0326 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				051FF8F2CFCB1E160AA29BF259BE3D59 /* ReplaceMe.m in Sources */,
-				B57182A5A5887074E75AE68C7BFAC62E /* WQ_WKWebView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67E53F4C0931B93FA1530823C1C590A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF910430FA37240FE0CFF168D617CA90 /* Pods-WQ_WKWebView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78639C02452065BAB7B0D179DC5B2ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6134FE5CE0A3300E0197D5B7BD129A /* WQ_WKWebView-dummy.m in Sources */,
+				3BA02980D073ED0744B7EDBF83B4B124 /* WQ_WKWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +415,7 @@
 /* Begin XCBuildConfiguration section */
 		31DD516958EA67D6A984B7FDA41E49B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4531202C6AF775DF87BEDD7E319ED815 /* WQ_WKWebView.xcconfig */;
+			baseConfigurationReference = C2B9D28850D794603D53AA482F501AAE /* WQ_WKWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -637,7 +641,7 @@
 		};
 		DAE8052A174C750665163375EEAEF635 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4531202C6AF775DF87BEDD7E319ED815 /* WQ_WKWebView.xcconfig */;
+			baseConfigurationReference = C2B9D28850D794603D53AA482F501AAE /* WQ_WKWebView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

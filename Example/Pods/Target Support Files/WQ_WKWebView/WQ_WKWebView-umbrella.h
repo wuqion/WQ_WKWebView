@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WQ_WKWebView.h"
 
 FOUNDATION_EXPORT double WQ_WKWebViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WQ_WKWebViewVersionString[];

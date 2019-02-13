@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of WQ_WKWebView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wuqiongaia@163.com/WQ_WKWebView",
+  "homepage": "https://github.com/wuqion/WQ_WKWebView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "wuqiongaia@163.com": "jiangwei@lcworld-inc.com"
   },
   "source": {
-    "git": "https://github.com/wuqiongaia@163.com/WQ_WKWebView.git",
+    "git": "https://github.com/wuqion/WQ_WKWebView.git",
     "tag": "0.1.0"
   },
   "platforms": {
